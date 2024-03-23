@@ -23,6 +23,7 @@ The *contentspace devcontainer.json* will build a container with all the necessa
 ### Features
 
 - Git
+- tox
 
 ### Add your own Extensions
 

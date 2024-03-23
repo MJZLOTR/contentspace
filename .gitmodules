@@ -1,0 +1,3 @@
+[submodule "content/github.com/opentelekomcloud/otcdocstheme"]
+	path = content/github.com/opentelekomcloud/otcdocstheme
+	url = https://github.com/opentelekomcloud/otcdocstheme.git

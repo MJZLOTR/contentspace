@@ -19,7 +19,8 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {}
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers-contrib/features/tox:2": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
