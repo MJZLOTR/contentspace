@@ -1,1 +1,0 @@
-Here you can clone repositories that are hosted to official public organisations related to Open Telekom Cloud

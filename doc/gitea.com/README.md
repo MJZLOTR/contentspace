@@ -1,1 +1,0 @@
-Here you can clone repositories that are hosted strictry to internal gitea
