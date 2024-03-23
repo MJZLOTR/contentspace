@@ -19,8 +19,9 @@ The *contentspace devcontainer.json* will build a container with all the necessa
 - reStructuredText, reStructuredText Syntax Highlighting, Extension Pack for reStructuredText
 - Markdown, Markdown All in One, Markdown Preview Enhanced 
 
-
 ### Features
 
 - Git
+
+### Add your own Extensions
 
