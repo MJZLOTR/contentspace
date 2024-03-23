@@ -1,3 +1,6 @@
 [submodule "content/github.com/opentelekomcloud/otcdocstheme"]
 	path = content/github.com/opentelekomcloud/otcdocstheme
 	url = https://github.com/opentelekomcloud/otcdocstheme.git
+[submodule "content/github.com/opentelekomcloud-docs/architecture-center"]
+	path = content/github.com/opentelekomcloud-docs/architecture-center
+	url = https://github.com/opentelekomcloud-docs/architecture-center.git
