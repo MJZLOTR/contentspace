@@ -18,6 +18,7 @@ The *contentspace devcontainer.json* will build a container with all the necessa
 - Python, Python Debugger, Pylance, Python Sphinx Highlighter
 - reStructuredText, reStructuredText Syntax Highlighting, Extension Pack for reStructuredText
 - Markdown, Markdown All in One, Markdown Preview Enhanced 
+- Git Graph
 
 ### Features
 
