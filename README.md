@@ -21,7 +21,7 @@ need (if you are contributing new content) is to make a copy of it and fill in t
 ### Submodules
 
 This project is organized with [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), and that practically
-means, that any repository you want to work with you **should not** import it by cloning it with `git clone <url>` but instead
+means, that any repository you want to work with you **should not** import it by cloning it with `git clone <url>` **but instead**
 importing as a submodule with `git submodule add <url>`
 
 The project is already prelinked with the following GitHub repositories as submodules:
