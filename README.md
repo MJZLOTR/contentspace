@@ -1,20 +1,25 @@
 # contentspace
 
+This project sets up an one-click development environment for Open Telekom Cloud Architecture Center content creators, 
+by using [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers). A pre-configured container
+environment will be automatically created in Visual Studio Code and accessed as remote container, that has all the necessary
+tooling for creating new articles for the Architecture Center.
+
 ## Content
 
 ### Submodules
 
 This project is organized with [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), and that practically
-means, that any repository you want to work with you **should not** import it by cloning it with `git clone <url>` **but instead**
-importing as a submodule with `git submodule add <url>`
+means, that you **should not** import any repository you want to work with by cloning it with `git clone <url>`, **but instead**
+importing as a submodule with `git submodule add <url>`.
 
-The project is already prelinked with the following GitHub repositories as submodules:
+The project is already pre-linked with the following GitHub repositories as submodules:
 
-- **opentelekomcloud-docs/architecture-center**, you are not going to need unless you are actively involved in managing the public facing end-product.
-- **opentelekomcloud/otcdocstheme**, you are not going to need it if you are not actively involved in developing the themes of Help Center and Architecture Center
+- **[opentelekomcloud-docs/architecture-center](https://github.com/opentelekomcloud-docs/architecture-center)**, you are not going to need unless you are actively involved in managing the public facing end-product.
+- **[opentelekomcloud/otcdocstheme](https://github.com/opentelekomcloud/otcdocstheme)**, you are not going to need it if you are not actively involved in developing the themes of Help Center or Architecture Center
 
 > [!WARNING]
-> All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually
+> All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually.
 
 ### Structure
 
