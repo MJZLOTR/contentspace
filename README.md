@@ -76,6 +76,7 @@ the next time you rebuild your Dev Container.
 ![add-extension.png](assets%2Fimages%2Fadd-extension.png)
 
 > [!NOTE]  
-> You can rebuild your container with our without using _cache_, in the latter case it will rebuild the container from scratch. 
+> You can afterwards rebuild your container so the changes take effect, with our without using _cache_, in the latter 
+> case it will rebuild the container from scratch. 
 
 
