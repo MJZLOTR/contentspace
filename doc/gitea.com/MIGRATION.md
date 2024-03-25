@@ -1,6 +1,6 @@
 # Curating Migrated Content
 
-The process steps to curate migrated content in Architecture Center is described in the link that will be provided to you
+The process steps to curate migrated content for Architecture Center is described in the link that will be provided to you
 in your onboarding packet as a content creator.
 
 > [!IMPORTANT]   
