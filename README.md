@@ -20,8 +20,8 @@ importing as a submodule with `git submodule add <url>`.
 
 The project is already pre-linked with the following GitHub repositories as submodules:
 
-- **[opentelekomcloud-docs/architecture-center](https://github.com/opentelekomcloud-docs/architecture-center)**, you are not going to need unless you are actively involved in managing the public facing end-product.
-- **[opentelekomcloud/otcdocstheme](https://github.com/opentelekomcloud/otcdocstheme)**, you are not going to need it if you are not actively involved in developing the themes of Help Center or Architecture Center
+- **[opentelekomcloud-docs/architecture-center](https://github.com/opentelekomcloud-docs/architecture-center)**, you are not going to need this, unless you are actively involved in managing the public facing end-product.
+- **[opentelekomcloud/otcdocstheme](https://github.com/opentelekomcloud/otcdocstheme)**, you are not going to need it, if you are not actively involved in developing the themes of Help Center or Architecture Center
 
 > [!CAUTION]
 > All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually.
@@ -33,8 +33,8 @@ The newly created or migrated content has always to go under `/doc`. There can b
 - `/gitea.com`, here should be cloned **only** the repos living in the internal git system 
 - `/github.com`, here should be cloned **only** the repos living in any public facing GitHub organization affiliated with Open Telekom Cloud
 
-**Always fork the upstream repos you are going to work on**, unless you instructed otherwise, and add them as _submodule_  
-in one of the aforementioned paths.
+**Always fork the upstream repos you are going to work with**, unless you instructed otherwise, and add them 
+as _submodule_ in one of the aforementioned paths.
 
 > [!IMPORTANT]   
 > If you are contributing **new** content, always clone your fork under **gitea.com**, do not create any branch or commits 
