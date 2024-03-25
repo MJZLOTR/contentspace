@@ -1,13 +1,8 @@
 # contentspace
 
-## Structure
+## Content
 
-### Templates
-
-Under **assets/templates**, you can find a scaffold for two different kind of articles, an external and internal one. All you 
-need (if you are contributing new content) is to make a copy of it and fill in the gaps according to the inline instructions.
-
-### Content
+### Structure
 
 The newly created or migrated content has always to go under `/doc`. There can be found two sub-folders:
 
@@ -16,6 +11,12 @@ The newly created or migrated content has always to go under `/doc`. There can b
 
 **Always fork the upstream repos you are going to work on**, unless you instructed otherwise, and add them as _submodule_ (see next paragraph) 
 in one of the aforementioned paths.
+
+Under **assets/templates**, you can find a scaffold for two different kind of articles, an external and internal one. All you 
+need (if you are contributing new content) is to make a copy of it and fill in the gaps according to the inline instructions.
+
+> [!NOTE]   
+> If you are curating migrated content, consult [MIGRATION.md](doc%2Fgitea.com%2FMIGRATION.md)
 
 ### Submodules
 
@@ -28,7 +29,8 @@ The project is already prelinked with the following GitHub repositories as submo
 - **opentelekomcloud-docs/architecture-center**, you are not going to need unless you are actively involved in managing the public facing end-product.
 - **opentelekomcloud/otcdocstheme**, you are not going to need it if you are not actively involved in developing the themes of Help Center and Architecture Center
 
-> **_NOTE:_**  All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually
+> [!WARNING]
+> All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually
 
 ## Dev Container
 
@@ -57,7 +59,7 @@ the next time you rebuild your Dev Container.
 
 ![add-extension.png](assets%2Fimages%2Fadd-extension.png)
 
-> **_NOTE:_**  You can rebuild your container with our without using _cache_, in the latter case it will rebuild the
-> container from scratch. 
+> [!NOTE]  
+> You can rebuild your container with our without using _cache_, in the latter case it will rebuild the container from scratch. 
 
 
