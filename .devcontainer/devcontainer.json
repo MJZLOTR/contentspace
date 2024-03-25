@@ -7,14 +7,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"starkwang.markdown",
-				"yzhang.markdown-all-in-one",
-				"shd101wyy.markdown-preview-enhanced",
+				"ms-python.python",
+				"ms-python.debugpy",
+				"mhutchie.git-graph",
 				"lextudio.restructuredtext",
 				"trond-snekvik.simple-rst",
-				"lextudio.restructuredtext-pack",
-				"leonhard-s.python-sphinx-highlight",
-				"mhutchie.git-graph"
+				"leonhard-s.python-sphinx-highlight"
 			]
 		}
 	},
