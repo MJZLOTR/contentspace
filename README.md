@@ -5,7 +5,7 @@ by using [Dev Containers](https://code.visualstudio.com/docs/devcontainers/conta
 environment will be automatically created in Visual Studio Code and accessed as remote container, that has all the necessary
 tooling for creating new articles for the Architecture Center.
 
-![devcontainer.png](assets%2Fimages%2Fdevcontainer.png)
+![devcontainer.png](assets%2Fimages%2Fremote-devcontainer.png)
 
 > [!IMPORTANT]
 > Do **not** clone this repo, but instead fork it and clone your fork
