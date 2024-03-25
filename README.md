@@ -6,7 +6,7 @@ environment will be automatically created in Visual Studio Code and accessed as 
 tooling for creating new articles for the Architecture Center.
 
 > [!IMPORTANT]
-> Do not clone this repo, but instead fork it and clone your fork
+> Do **not** clone this repo, but instead fork it and clone your fork
 
 ## Content
 
