@@ -2,22 +2,6 @@
 
 ## Content
 
-### Structure
-
-The newly created or migrated content has always to go under `/doc`. There can be found two sub-folders:
-
-- **gitea.com**, here should be cloned **only** the repos living in the internal git system 
-- **github.com**, here should be cloned **only** the repos living in any public facing GitHub organization affiliated with Open Telekom Cloud
-
-**Always fork the upstream repos you are going to work on**, unless you instructed otherwise, and add them as _submodule_ (see next paragraph) 
-in one of the aforementioned paths.
-
-Under **assets/templates**, you can find a scaffold for two different kind of articles, an external and internal one. All you 
-need (if you are contributing new content) is to make a copy of it and fill in the gaps according to the inline instructions.
-
-> [!NOTE]   
-> If you are curating migrated content, consult [MIGRATION.md](doc%2Fgitea.com%2FMIGRATION.md)
-
 ### Submodules
 
 This project is organized with [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), and that practically
@@ -31,6 +15,28 @@ The project is already prelinked with the following GitHub repositories as submo
 
 > [!WARNING]
 > All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually
+
+### Structure
+
+The newly created or migrated content has always to go under `/doc`. There can be found two sub-folders:
+
+- **gitea.com**, here should be cloned **only** the repos living in the internal git system 
+- **github.com**, here should be cloned **only** the repos living in any public facing GitHub organization affiliated with Open Telekom Cloud
+
+**Always fork the upstream repos you are going to work on**, unless you instructed otherwise, and add them as _submodule_  
+in one of the aforementioned paths.
+
+> [!IMPORTANT]   
+> If you are contributing **new** content, always clone your fork under **gitea.com**, do not create any branch or commits 
+> in **opentelekomcloud-docs/architecture-center**.
+
+Under **assets/templates**, you can find a scaffold for two different kind of articles, an external and internal one. All you 
+need (if you are contributing new content) is to make a copy of it and fill in the gaps according to the inline instructions.
+
+> [!NOTE]   
+> If you are curating migrated content, consult [MIGRATION.md](doc%2Fgitea.com%2FMIGRATION.md)
+
+
 
 ## Dev Container
 
