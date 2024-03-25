@@ -30,8 +30,8 @@ The project is already pre-linked with the following GitHub repositories as subm
 
 The newly created or migrated content has always to go under `/doc`. There can be found two sub-folders:
 
-- **gitea.com**, here should be cloned **only** the repos living in the internal git system 
-- **github.com**, here should be cloned **only** the repos living in any public facing GitHub organization affiliated with Open Telekom Cloud
+- `/gitea.com`, here should be cloned **only** the repos living in the internal git system 
+- `/github.com`, here should be cloned **only** the repos living in any public facing GitHub organization affiliated with Open Telekom Cloud
 
 **Always fork the upstream repos you are going to work on**, unless you instructed otherwise, and add them as _submodule_  
 in one of the aforementioned paths.
