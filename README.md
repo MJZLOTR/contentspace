@@ -4,7 +4,7 @@
 
 ### Templates
 
-Under assets/templates, you can find a scaffold for two different kind of articles, an external and internal one. All you 
+Under **assets/templates**, you can find a scaffold for two different kind of articles, an external and internal one. All you 
 need (if you are contributing new content) is to make a copy of it and fill in the gaps according to the inline instructions.
 
 ### Content
