@@ -5,6 +5,9 @@ by using [Dev Containers](https://code.visualstudio.com/docs/devcontainers/conta
 environment will be automatically created in Visual Studio Code and accessed as remote container, that has all the necessary
 tooling for creating new articles for the Architecture Center.
 
+> [!IMPORTANT]
+> Do not clone this repo, but instead fork it and clone your fork
+
 ## Content
 
 ### Submodules
@@ -18,7 +21,7 @@ The project is already pre-linked with the following GitHub repositories as subm
 - **[opentelekomcloud-docs/architecture-center](https://github.com/opentelekomcloud-docs/architecture-center)**, you are not going to need unless you are actively involved in managing the public facing end-product.
 - **[opentelekomcloud/otcdocstheme](https://github.com/opentelekomcloud/otcdocstheme)**, you are not going to need it if you are not actively involved in developing the themes of Help Center or Architecture Center
 
-> [!WARNING]
+> [!CAUTION]
 > All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually.
 
 ### Structure
