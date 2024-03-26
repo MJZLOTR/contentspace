@@ -87,4 +87,13 @@ the next time you rebuild your Dev Container.
 > You can afterwards rebuild your container so the changes take effect, with our without using _cache_, in the latter 
 > case it will rebuild the container from scratch. 
 
+### DevPod
+
+You can fully automate your development lifecycle and provisioning by using The [Open Telekom Cloud provider for Loft Labs' DevPod](https://github.com/akyriako/devpod-provider-opentelekomcloud). DevPod is a a tool, similar to GitHub Codespaces, where you can spawn reproducible developer environments based on the backend of your choice (Azure, AWS, Docker, Kubernetes, Open Telekom Cloud etc) paying only for the machine you are using. Each environment is an isolated instance running in a container whose image is specified in **devcontainer.json**, as we discussed already. 
+
+![devpod.png](assets%2Fimages%2Fdevpod.png)
+
+
+
+
 
