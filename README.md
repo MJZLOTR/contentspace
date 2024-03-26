@@ -70,7 +70,7 @@ extras pre-installed:
 > [!IMPORTANT]   
 > During the provisioning of your container you will be asked to confirm the installation/activation of:
 >
-> - reStructuredText docutils Preview extension
+> - reStructuredText *docutils* Preview Engine
 > - Esbonio Language Server
 >
 > Click **Yes** to both of them.

@@ -12,7 +12,10 @@
 				"mhutchie.git-graph",
 				"lextudio.restructuredtext",
 				"trond-snekvik.simple-rst",
-				"leonhard-s.python-sphinx-highlight"
+				"leonhard-s.python-sphinx-highlight",
+				"starkwang.markdown",
+				"shd101wyy.markdown-preview-enhanced",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	},
