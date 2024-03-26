@@ -52,7 +52,7 @@ need (if you are contributing new content) is to make a copy of it and fill in t
 
 Any IDE that supports [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers), but in this case everything is tailored for Visual Studio Code, will build 
 a container with all the necessary prerequisites to get you started creating content immediately based on the extensions 
-and features defined in **devcontainer.json**. A `python:1-3.12-bullseye` container will be spawned with the following 
+and features defined in **devcontainer.json**. A `python:1-3.9-bullseye` container will be spawned with the following 
 extras pre-installed:
 
 ### Visual Studio Code Extensions
@@ -66,6 +66,14 @@ extras pre-installed:
 
 - Git
 - tox
+
+> [!IMPORTANT]   
+> During the provisioning of your container you will be asked to confirm the installation/activation of:
+>
+> - reStructuredText docutils Preview extension
+> - Esbonio Language Server
+>
+> Click **Yes** to both of them.
 
 ### Add your own Extensions
 
