@@ -94,7 +94,7 @@ local machine, and not spreading them individually to every new development envi
 
 ### DevPod
 
-You can additionally but not necessarily, fully automate your development lifecycle and provisioning by using The [Open Telekom Cloud provider for Loft Labs' DevPod](https://github.com/akyriako/devpod-provider-opentelekomcloud). DevPod is a a tool, similar to GitHub Codespaces, where you can spawn reproducible developer environments based on the backend of your choice (Azure, AWS, Docker, Kubernetes, Open Telekom Cloud etc) paying only for the machine you are using. Each environment is an isolated instance running in a container whose image is specified in **devcontainer.json**, as we discussed already. 
+You can additionally but not necessarily, fully automate your development lifecycle and provisioning by using the [Open Telekom Cloud provider for Loft Labs' DevPod](https://github.com/akyriako/devpod-provider-opentelekomcloud). DevPod is a a tool, similar to GitHub Codespaces, where you can spawn reproducible developer environments based on the backend of your choice (Azure, AWS, Docker, Kubernetes, Open Telekom Cloud etc) paying only for the machine you are using. Each environment is an isolated instance running in a container whose image is specified in **devcontainer.json**, as we discussed already. 
 
 ![devpod.png](assets%2Fimages%2Fdevpod.png)
 
