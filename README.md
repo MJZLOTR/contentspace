@@ -47,7 +47,6 @@ need (if you are contributing new content) is to make a copy of it and fill in t
 > If you are curating migrated content, consult [MIGRATION.md](doc%2Fgitea.com%2FMIGRATION.md)
 
 
-
 ## Dev Container
 
 Any IDE that supports [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers), but in this case everything is tailored for Visual Studio Code, will build 
@@ -86,6 +85,12 @@ the next time you rebuild your Dev Container.
 > [!NOTE]  
 > You can afterwards rebuild your container so the changes take effect, with our without using _cache_, in the latter 
 > case it will rebuild the container from scratch. 
+
+### Git Credentials
+
+The Git extension will automatically forward your local SSH agent, if one is running otherwise it will use directly the git configuration
+of your local host. In that way you can take advantage of keeping tight control of your credentials and your SSH keys in one place, your 
+local machine, and not spreading them individually to every new development enviroment. 
 
 ### DevPod
 
