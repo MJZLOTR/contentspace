@@ -60,11 +60,19 @@ extras pre-installed:
 - reStructuredText, reStructuredText Syntax Highlighting, Extension Pack for reStructuredText
 - Markdown, Markdown All in One, Markdown Preview Enhanced 
 - Git Graph
+- Resource Monitor
+- GraphViz Diagrams Previewer
+- Draw.io Integration
 
 ### Features
 
 - Git
 - tox
+
+### Extras
+
+- GraphViz Diagrams
+
 
 > [!IMPORTANT]   
 > During the provisioning of your container you will be asked to confirm the installation/activation of:

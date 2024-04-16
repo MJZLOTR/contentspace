@@ -15,14 +15,17 @@
 				"leonhard-s.python-sphinx-highlight",
 				"starkwang.markdown",
 				"shd101wyy.markdown-preview-enhanced",
-				"yzhang.markdown-all-in-one"
+				"yzhang.markdown-all-in-one",
+				"mutantdino.resourcemonitor",
+				"tehpeng.diagramspreviewer",
+				"hediet.vscode-drawio"
 			]
 		}
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers-contrib/features/tox:2": {}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -31,7 +34,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "sudo apt update && sudo apt install graphviz xdg-utils -y && pip install diagrams"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
