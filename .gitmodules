@@ -5,3 +5,6 @@
 [submodule "doc/github.com/opentelekomcloud-docs/architecture-center"]
 	path = doc/github.com/opentelekomcloud-docs/architecture-center
 	url = https://github.com/opentelekomcloud-docs/architecture-center.git
+[submodule "doc/gitea.com/image-management-service"]
+	path = doc/gitea.com/image-management-service
+	url = ssh://git@gitea.eco.tsi-dev.otc-service.com:2222/A200273771/image-management-service.git
