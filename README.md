@@ -26,6 +26,9 @@ The project is already pre-linked with the following GitHub repositories as subm
 > [!CAUTION]
 > All submodules added in the project, are listed in `.gitmodules`. It is strongly advised not to alter this file manually.
 
+When you clone such a project, by default you get the directories that contain submodules, but none of the files within them yet.
+The directoriew are there, but empty. You must run two commands: `git submodule init` to initialize your local configuration file, and `git submodule update` to fetch all the data from that project.
+
 ### Structure
 
 The newly created or migrated content has always to go under `/doc`. There can be found two sub-folders:
