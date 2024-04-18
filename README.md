@@ -97,11 +97,34 @@ the next time you rebuild your Dev Container.
 > You can afterwards rebuild your container so the changes take effect, with our without using _cache_, in the latter 
 > case it will rebuild the container from scratch. 
 
+
 ### Git Credentials
 
 The Git extension will automatically forward your local SSH agent, if one is running otherwise it will use directly the git configuration
-of your local host. In that way you can take advantage of keeping tight control of your credentials and your SSH keys in one place, your 
-local machine, and not spreading them individually to every new development enviroment. 
+of your local host. In that way you can take advantage of keeping tight control of your credentials and your SSH keys in one place, your
+local machine, and not spreading them individually to every new development enviroment.
+
+## Using ssh-agent for agent forwarding
+
+There are some cases when you may be cloning your repository using SSH keys instead of a credential helper. To enable this scenario, the extension will automatically forward your **local [SSH agent](https://www.ssh.com/ssh/agent) if one is running**.
+Want to know how ssh-agent works? read [SSH Agent Explained](https://smallstep.com/blog/ssh-agent-explained/ "SSH Agent Explained")
+
+You can add your local SSH keys to the agent if it is running by using the `ssh-add` command. Add these lines to your `~/.bash_profile` or `~/.zprofile` (for Zsh) so it starts on login:
+
+```bash
+if [ -z "$SSH_AUTH_SOCK" ]; then
+   # Check for a currently running instance of the agent
+   RUNNING_AGENT="`ps -fp $(pgrep -u $USER) | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
+   if [ "$RUNNING_AGENT" = "0" ]; then
+        # Launch a new instance of the agent
+        ssh-agent -s &> $HOME/.ssh/ssh-agent
+   fi
+   eval `cat $HOME/.ssh/ssh-agent`
+fi
+```
+Open a new shell and test if ssh-agent is runnig by excecuting `ssh-add -l` which shoud list your keys.
+
+
 
 ### DevPod
 
