@@ -34,7 +34,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt update && sudo apt install graphviz xdg-utils -y && pip install diagrams"
+	"postCreateCommand": "sudo apt update && sudo apt install graphviz xdg-utils -y && pip install diagrams-otc"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
