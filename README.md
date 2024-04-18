@@ -104,7 +104,7 @@ The Git extension will automatically forward your local SSH agent, if one is run
 of your local host. In that way you can take advantage of keeping tight control of your credentials and your SSH keys in one place, your
 local machine, and not spreading them individually to every new development enviroment.
 
-## Using ssh-agent for agent forwarding
+#### Using ssh-agent for agent forwarding
 
 There are some cases when you may be cloning your repository using SSH keys instead of a credential helper. To enable this scenario, the extension will automatically forward your **local [SSH agent](https://www.ssh.com/ssh/agent) if one is running**.
 Want to know how ssh-agent works? read [SSH Agent Explained](https://smallstep.com/blog/ssh-agent-explained/ "SSH Agent Explained")
@@ -123,7 +123,6 @@ if [ -z "$SSH_AUTH_SOCK" ]; then
 fi
 ```
 Open a new shell and test if ssh-agent is runnig by excecuting `ssh-add -l` which shoud list your keys.
-
 
 
 ### DevPod
