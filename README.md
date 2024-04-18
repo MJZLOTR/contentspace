@@ -74,7 +74,7 @@ extras pre-installed:
 
 ### Extras
 
-- GraphViz Diagrams for Open Telekom Cloud (diagrams-otc)
+- GraphViz [Diagrams for Open Telekom Cloud](https://github.com/akyriako/diagrams) (diagrams-otc)
 
 
 > [!IMPORTANT]   
